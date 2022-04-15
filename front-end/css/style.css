@@ -1,0 +1,125 @@
+body {
+ 
+    margin: 0;
+    background-image: url("../img/bg.jpg");
+}
+
+h1,h2{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: rgb(70, 101, 202);}
+
+ul.topnav li a.active {background-color: #04AA6D;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+
+input[type=text], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(255, 220, 171);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(255, 220, 171);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+  input[type=submit] {
+    width: 60%;
+    background-color: crimson;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: crimson;
+  }
+
+
+  
+  
+  div {
+    border-radius: 5px;
+    background-color: #f6ded1;
+    padding: 0px;
+  }
+
+#main-div 
+{
+    display: flex;
+  
+    padding: 14px 16px; 
+}
+
+#login-div 
+{ 
+    display: flex;
+    margin-left: 45px ;
+    width: 60%;
+    padding: 14px 16px; 
+    background-color: transparent;
+}
+#title-div {
+    display: block;
+   
+}
+#storiesTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #storiesTable td, #storiesTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #storiesTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #storiesTable tr:hover {background-color: #ddd;}
+  
+  #storiesTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }

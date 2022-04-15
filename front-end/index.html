@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div id = "nav">
+<ul class="topnav">
+    <li><a onclick="homeLogin()" href="#" id="login">Home</a></li>
+    <li><a onclick="registerForm()" href="#" id="Register">Register</a></li>
+    <li><a onclick="showPitchs()" href="#" id="showP">Stories</a></li>
+    <li><a onclick="addPitch()" href="#" id="showP">Add Pitch</a></li>
+
+    <li><a onclick="logOut() "href="#" id="Logout">LogOut</a></li>
+   
+    
+    <li class="right" ><a href="#about" id="nameDisplay" ></a></li>
+</ul>
+</div>
+<div id="main-div">
+    <div id="title-div"></div>
+    <h1> <span style="color: crimson;"> Story Pitch Management System  </span></h1>
+    </div>
+    <div id="login-div">
+  <h2 id="quote">Books are the quietest and most constant of friends; 
+      they are the most accessible and wisest of counselors, 
+      and the most patient of teachers. <span style="font-size: 15px;"> <i>   Charles W. Eliot</i> </span> </h2>
+    </div>
+     
+      <table id="storiesTable">
+        <!-- fill via JavaScript -->
+    </table>
+
+    <p id ="addpitchhere"></p>
+
+   </div>
+   
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/stories.js"></script>
+
+</body>
+
+</html>
