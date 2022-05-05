@@ -52,10 +52,10 @@ To-do list:
 10. Run Eclipse IDE and go to file-> import -> existing Maven project and browse to the folder where you cloned the repository. 
 11.  Run the Java application
 ![enter image description here](https://i.ibb.co/Q8cjXqx/eclipse.png)
-12. Navigate to the folder where you cloned the repository, open the front-end folder and double click index.html. this will open the home page of the app 
+12. Navigate to the folder where you cloned the repository, open the **front-end** folder and double click `index.html`. This will open the home page of the App 
 ## Usage
 
-> The navigation in the App is pretty straight forward, the Nav bar elements and what they does is explained in the screen shot of the home page bellow 
+> The navigation in the App is pretty straight forward, the Nav bar elements and what they do is explained in the screen shot of the home page bellow 
 
 ![](https://i.ibb.co/ydFCpxj/home-page.png)
 
