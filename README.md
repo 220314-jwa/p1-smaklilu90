@@ -40,7 +40,7 @@ To-do list:
 **Setting up the Environment and Getting Started**
 2. Clone the repository by using the following command. You can run the command on  Terminal on (Linux, MAC) and Command Prompt(Windows). 
 > `git clone https://github.com/220314-jwa/p1-smaklilu90`
-3. navigate to the folder named **db scripts** and  open the file named `dbscripts.sql`copy all the lines of code by pressing ctrl+A or cmd+A(on Mac)  
+3. navigate to the folder you clonned the repository and open the file named `dbscripts.sql` with any text editor and select and copy all the lines of code by pressing ctrl+A or cmd+A then ctrl+C/cmd+C (on Mac)  
 4. Run dBeaver and click on the 🔌(plug) icon to create a new Db connection. 
 5. On the connect to database wizard click on PostgresSQL and make sure the host set to **localhost** and the port is set to **5432** (if you didn't change anything, these settings are the default) 
 6. in the password field put **1234** and click finish to create the connection 
