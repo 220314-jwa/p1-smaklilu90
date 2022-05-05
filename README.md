@@ -1,43 +1,63 @@
-# Java with Automation Foundations Project
+# SPMS: Story Pitch Management System
 
-For this project, you will be creating a full-stack application. There will be two different primary deadlines:
-
-- **April 6th** Back end unit tests complete, at least 3 endpoints functional
-- **April 15th** Final deadline including front end
-
-The biggest priority for this application is testing! If you have everything working but you have not completed the testing requirements (JUnit, Mockito, Selenium), you **DO NOT** have a sufficient project. When considering how you want to manage your time, make sure that you will have your tests completed either early or as you go.
-
-## About the Application
-
-You will be creating one of these two applications:
-
-### TRMS: Tuition Reimbursement Management System
-
-Tuition Reimbursement Management System is an application which allows employees at a company to submit requests for reimbursement. If the employee decides to take a certification exam or attend a class, the company may reimburse them for the cost after they submit a request. Managers can then go into the application and approve or reject requests.
-
-### SPMS: Story Pitch Management System
+## Project Description
 
 Story Pitch Management System is an application which allows authors to submit pitches for stories to the publishing company. They can write a small description of the story they hope to write, and editors can go into the application and approve or reject story pitches based on whether they sound interesting or even suggest changes before approval.
 
-## Technical Requirements
+## Technologies Used
 
-1. Data must be stored and retrieved from a PostgreSQL database (local or AWS).
-2. Data access in Java will be performed using JDBC DAOs.
-3. HTTP handling in Java will be done using Javalin.
-4. Service layers must be fully unit tested using JUnit and Mockito.
-5. DAOs are fully unit tested using JUnit.
-6. Front end must be written using HTML, CSS, and JavaScript (no libraries/frameworks for JS. Styling libraries like Bootstrap are fine).
-7. At least one feature must have an automation test written using Selenium.
+* Java SE - version 1.8
+* PostgreSQL (local) - version 14.2
+* JavaScript 
+* HTML/CSS
+* DBeaver - version 22.0
+* Eclipse IDE - version 4.22.0
+* VS Code- version 1.66.2
+* Postman -version 9.17
+* Junit - version 5.8.2
+* Mockito- version 4.5.1
+* Javalin- 4.3.0
 
-## Functional Requirements
+## Features
 
-[TRMS Specifications](./p1-specs/TRMS.md)
+List of features ready and TODOs for future development
+* Users can register with a different role ( Author, Editor, Senior Editor) 
+* Authors can create stories and submit them for approval 
+* Editors can see all the stories that are submitted and review them 
 
-[SPMS Specifications](./p1-specs/SPMS.md)
 
-## Bonus Requirements
+To-do list:
+* When the list of stories table populates it has a lot of ID columns, each Id represents a status, a role etc. If the user is not aware what the ID's represent it can lead to confusion. This can be improved by joining the related tables and create a better view in the Db 
+* Editors and Senior editors should have a different role. i.e. for the time being they have the same roles/privileges.  
 
-1. Use JWTs for session management.
-2. Use at least one Cucumber feature file.
-3. Use the POM design pattern for your Selenium test(s).
-4. Implement file attachments for requests/pitches.
+## Getting Started
+   
+**Requirements**
+1. Download and Install PostgreSQL and DBeaver by following these links bellow (the links have specific instruction for your preferred OS  : 
+  > https://www.postgresql.org/download/
+  > https://dbeaver.io/download/
+ 
+**Setting up the Environment and Getting Started**
+2. Clone the repository by using the following command. You can run the command on  Terminal on (Linux, MAC) and Command Prompt(Windows). 
+> `git clone https://github.com/220314-jwa/p1-smaklilu90`
+3. navigate to the folder named **db scripts** and  open the file named `dbscripts.sql`copy all the lines of code by pressing ctrl+A or cmd+A(on Mac)  
+4. Run dBeaver and click on the 🔌(plug) icon to create a new Db connection. 
+5. On the connect to database wizard click on PostgresSQL and make sure the host set to **localhost** and the port is set to **5432** (if you didn't change anything, these settings are the default) 
+6. in the password field put **1234** and click finish to create the connection 
+7. On the navigation bar click click **SQL Editor** and click **new sql script**
+8. you should have a sql editor blank  window in Dbeaver now. you paste the code that you copied in **Step 3** in there 
+9. You can run the sql scripts one by one as shown bellow in the picture (I highly recommended that to avoid reference table conflicts). This will create all the required tables in the database for the Application to work. 
+ ![dBever instruction](https://i.ibb.co/Dw7Tm1T/dbeaver.png)
+10. Run Eclipse IDE and go to file-> import -> existing Maven project and browse to the folder where you cloned the repository. 
+11.  Run the Java application
+![enter image description here](https://i.ibb.co/Q8cjXqx/eclipse.png)
+12. Navigate to the folder where you cloned the repository, open the front-end folder and double click index.html. this will open the home page of the app 
+## Usage
+
+> The navigation in the App is pretty straight forward, the Nav bar elements and what they does is explained in the screen shot of the home page bellow 
+
+![](https://i.ibb.co/ydFCpxj/home-page.png)
+
+## License
+
+This project uses the following license: [<license_name>](<link>).
