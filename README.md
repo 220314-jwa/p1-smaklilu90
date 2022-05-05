@@ -58,6 +58,4 @@ To-do list:
 
 ![](https://i.ibb.co/ydFCpxj/home-page.png)
 
-## License
 
-This project uses the following license: [<license_name>](<link>).
