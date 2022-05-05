@@ -35,6 +35,7 @@ To-do list:
 **Requirements**
 1. Download and Install PostgreSQL and DBeaver by following these links bellow (the links have specific instruction for your preferred OS  : 
   > https://www.postgresql.org/download/
+  > 
   > https://dbeaver.io/download/
  
 **Setting up the Environment and Getting Started**
