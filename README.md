@@ -28,7 +28,7 @@ List of features ready and TODOs for future development
 
 To-do list:
 * When the list of stories table populates it has a lot of ID columns, each Id represents a status, a role etc. If the user is not aware what the ID's represent it can lead to confusion. This can be improved by joining the related tables and create a better view in the Db 
-* Editors and Senior editors should have a different role. i.e. for the time being they have the same roles/privileges.  
+* Editors and Senior editors should have differnt roles/privillages. Currently, they have the same roles/privileges.  
 
 ## Getting Started
    
